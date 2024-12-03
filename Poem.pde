@@ -17,6 +17,7 @@ class Poem{
         rotation=-PI/4;
         posX=50;
         posY=200;
+        textSize(90);
         String lines[]=loadStrings(filename);
         numLines=lines.length;
         co=color(random(0,255),random(0,255),random(0,255));
